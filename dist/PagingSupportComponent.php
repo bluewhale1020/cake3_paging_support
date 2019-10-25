@@ -31,7 +31,6 @@ class PagingSupportComponent extends Component
         
           // 現在のコントローラーに アクセス
         $this->_controller = $this->_registry->getController();
-        debug($this->_controller->request->params);
 
         $this->session = $this->_controller->request->getSession();
 
